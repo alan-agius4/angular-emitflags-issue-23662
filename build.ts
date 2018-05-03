@@ -21,7 +21,7 @@ const compilation = performCompilation({
 		flatModuleId: 'test',
 		flatModuleOutFile: 'test.js',
 		skipTemplateCodegen: true,
-		fullTemplateTypeCheck: true,
+		fullTemplateTypeCheck: true, // setting this to false won't emit ngfactories
 		strictMetadataEmit: true
 	}
 });
